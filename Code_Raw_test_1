@@ -1,0 +1,22 @@
+import random
+
+class Adventurer:
+    def __init__(self, name, combat_class, luck, hp, race, intel):
+        self.name = name
+        self.cc = combat_class
+        self.luck = luck
+        self.hp = hp
+        self.race = race
+        self.intel = intel
+
+class Weapon:
+    def __init__(self, knife, baseball_bat, gun):
+        self.knife = knife
+        self.baseball_bat = baseball_bat
+        self.gun = gun
+
+
+a1 = Adventurer("Dax", 0, 0, 100, "pakpak_tribe", 0)
+a2 = Adventurer("Yanchku", 0, 0, 100, "whinning_tribe", 0)
+
+print(a1.race)
